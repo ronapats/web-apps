@@ -1,0 +1,13 @@
+<h1> Tacos are delish!</h1>
+
+<% 
+    tacos = ["ABC","CDE","FGH", "IJK"]
+%>
+
+<p> There are <%= tacos.count %> tacos. </p>
+
+<ul>
+    <% for taco in tacos %>
+        <li><%= taco%></li>
+    <% end%>
+</ul>
